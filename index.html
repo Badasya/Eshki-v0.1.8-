@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главный страница</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slides.css">
+</head>
+<body>
+    <header class="dark-back light-back">
+
+        <div class="header-logo">
+            <h1 class="h1-a"><a href="./index.html" target="_blank">X"E"</a></h1>
+        </div>
+
+        <div class="header-button">
+            <div class="header-nav">
+                <div class="header-plus dark-back light-back">
+
+                    <div class="theme-div dark-back light-back">
+                        <button class="theme-change"></button>
+                    </div>
+
+                    <div class="header-a dark-back-2 light-back-2">
+                        <a href="./html/mems.html">Мемы</a>
+                    </div>
+                    <div class="header-a dark-back-2 light-back-2">
+                        <a href="./html/people.html">Люди</a>
+                    </div>
+                    <div class="header-a dark-back-2 light-back-2">
+                        <a href="./html/events.html">События</a>
+                    </div>
+                    <div class="header-a dark-back-2 light-back-2">
+                        <a href="./html/about.html">О сайте+</a>
+                    </div>
+                    <div class="header-a dark-back-2 light-back-2">
+                        <a href="./html/some.html">Другое</a>
+                    </div>
+
+                </div>
+
+            </div>
+            <button class="btn-header-nav"></button>
+        </div>
+    </header>
+
+    <main>
+        <div class="info-div">
+            <div class="info-logo">
+                <h1>Создатели (и не только):</h1>
+            </div>
+        </div>
+
+        <div class="full-slides">
+            <div class="slide-show-div">
+                <div class="slides dark-back light-back">
+                    <img src="./img/Me.jpg">
+                  <div class="text-div-slide">
+                    <p>
+                        Просто прекрасный человек, создатель сайта, <a href="./html/bogdan.html">Бердыев Богдан Сергеевич</a>
+                    </p>
+                  </div>
+                </div>
+            
+                <div class="slides dark-back light-back">
+                    <img src="./img/Allanur-gay.jpg">
+                  <div class="text-div-slide">
+                    <p>
+                        Какой-то <a href="./html/аllanur.html">чувак</a>, случайный вообще, как сюда попал - хз.
+                    </p>
+                  </div>
+                </div>
+            
+                <div class="slides dark-back light-back" id="dr-slide">
+                  </div>
+
+                <div class="div-dot">
+                    <span class="dot dark-back light-back" onclick="currentSlide(1)"></span>
+                    <span class="dot dark-back light-back" onclick="currentSlide(2)"></span>
+                    <span class="dot dark-back light-back" onclick="currentSlide(3)"></span>
+                </div>
+            
+                <div class="next-prev-div">
+                    <span class="prev" onclick="plusSlides(-1)">&#10094;</span>
+                    <span class="next" onclick="plusSlides(1)">&#10095;</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-div">
+            <div class="info-logo">
+                <h1>О сайте:</h1>
+            </div>
+            <div class="paragraphs">
+                <p>
+                    Создание сайта началось <del>8 мая, 2024 года, в 18 часов, 15 минут, 21 секунду</del> 21 августа, 2024 года, в 17 часов, 52 минуты, 33 секунды - именно в этот момент была создана корневая папка <del>"Ешки-орешки"</del> "Ешки (сайт) v0.0.1". Теперь живите с этой информацией.
+                </p>
+                <p>
+                    Над сайтом работал 1 единственный человек, (то есть я) чьё фото Вы можете увидеть сверху, там ещё "создатель сайта" написано, ну разберётесь короче.
+                    Вторая фотка, является фоткой со-автора сайта. Его доля ±1,5%, из его заслуг то, что он иногда напоминал про то, что я вообще тут делаю, ну и был единственным, кто видел почти все версии (включая самые первые).
+                </p>
+
+                <p>
+                    Так же, стоит отметить, что эта версия не является самой первой, так как была создана на "руинах" прошлой, по причине того, что прошлая не подходила по некоторым, достаточно важным параметрам, а переделывать её мне было лень, да и это был тот случай, когда лучше начать всё заново, что я собственно и сделал.
+                </p>
+                <!-- засунь "!" в h6(или h2, похуй) с красным цветом -->
+                <p class="red-p">
+                    <span class="red-span">!</span> Все фотографии были взяты из СВОБОДНЫХ, и ДОСТУПНЫХ всем для вступления, групп, либо же, в РЕДКИХ случаях, личных чатов. "Биографии" и истории написаны по памяти автора/посредников, если вам что-то в них не НРАВИТСЯ, то это уже ВАША проблема, исправлять которую я - НЕ СОБИРАЮСЬ . <span class="red-span">!</span>
+                    <p id="ps">
+                        P.S: скорее всего на этот сайт НИКТО кроме людей из НАШЕГО класса (максимум школы) не зайдёт, так что о том, что про Вас УЗНАЮТ или, не дай Бог, УВИДЯТ левые люди можете не переживать.
+                    </p>   
+                </p>
+
+                <p class="blue-p">
+                    <span class="blue-span">!</span> Текст может содержать логические и грамматические ошибки/опечатки, так как, во-первых: я не гуманитарий, а во-вторых: я писал, пишу и буду писать, все тексты с музыкой на фоне, либо в наушниках. <span class="blue-span">!</span>
+                </p>
+
+                <p>
+                    Больше информации вы сможете найти в специальном "отделе", если я его доделаю до релиза...
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="dark-back light-back">
+        <div class="footer-div">
+            <p>
+                ООО "Let's Go, Вася Programming". Никакие права не защищены.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./js/header.js"></script>
+    <script src="./js/themes.js"></script>
+    <script src="./js/slides.js"></script>
+    <script src="./js/imgDate.js"></script>
+</body>
+</html>
