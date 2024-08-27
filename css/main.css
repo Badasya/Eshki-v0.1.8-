@@ -1,0 +1,52 @@
+main{
+    border-top: 3px solid black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.info-div{
+    margin-top: 3vh;
+}
+
+.info-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.info-logo h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+.paragraphs{
+    padding: 0 2vw;
+}
+
+.paragraphs p{
+    padding: 5px 0;
+}
+
+.red-p{
+    text-shadow: 1px 0 1px red;
+}
+
+.blue-p{
+    text-shadow: 1px 0 1px blue;
+}
+
+.red-span{
+    color: red;
+    font-size: 24px;
+}
+
+.blue-span{
+    color: blue;
+    font-size: 24px;
+}
+
+#ps{
+    font-size: 14px;
+    padding: 0 2vw;
+}

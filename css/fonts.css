@@ -1,0 +1,30 @@
+@font-face {
+	src: url(../font/idbc.otf);
+	font-family: IDBC;
+}
+
+@font-face {
+	src: url(../font/impact2.ttf);
+	font-family: Impact;
+}
+
+@font-face {
+	src: url(../font/days.ttf);
+	font-family: Days;
+}
+
+p{
+	font-family: Days;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header a{
+	font-family: IDBC;
+}

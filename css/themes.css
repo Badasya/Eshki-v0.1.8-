@@ -1,0 +1,144 @@
+:root{
+    /* Светлый режим */
+    --back-image-light: url(../img/fonW.jpg);
+    --text-color-light: #070707;
+    --back-color-light: #d2d2d2;
+    --back-color-light-2: #bebebe;
+    --link-color-light: #1ea3d8;
+    /* Тёмный режим */
+    --back-image-dark: url(../img/fonB.jpg);
+    --text-color-dark: #f1f1f1;
+    --back-color-dark: #2e2e2e;
+    --back-color-dark-2: #252525;
+    --link-color-dark: #ce2424;
+}
+
+::selection{
+    background:#1180da;
+    color: #e2e2e2;
+    text-shadow: 
+        1px 0 1px black,
+        0 1px 1px black, 
+        2px 1px 1px black,
+        1px 2px 1px black,   
+        3px 2px 1px black, 
+        2px 3px 1px black; 
+}
+
+/* Светлая тема */
+
+body{
+    background: var(--back-image-light);
+    background-size:  cover;
+    background-attachment: fixed;
+    color: var(--text-color-light);
+}
+
+body .h1-a a{
+    color: var(--text-color-light);
+}
+
+body a{
+    color: var(--link-color-light);
+}
+
+body .light-back{
+    background-color: var(--back-color-light);
+}
+
+body .header-button > button{
+    background: url(../img/section-1.png);
+    background-size: cover;
+}
+
+body .theme-change{
+    background: url(../img/sun.png);
+    background-size: cover;
+}
+
+body .light-back-2{
+    background: var(--back-color-light-2);
+}
+
+body .light-back-2 a{
+    color: var(--text-color-light);
+}
+
+body .silver-text a{
+    color: silver;
+    text-shadow: 
+        1px 0 1px #868686,
+        0 1px 1px #868686, 
+        2px 1px 1px #868686,
+        1px 2px 1px #868686,   
+        3px 2px 1px #868686, 
+        2px 3px 1px #868686; 
+}
+
+body .gold-text a{
+    color: gold;
+    text-shadow: 
+        1px 0 1px goldenrod,
+        0 1px 1px goldenrod, 
+        2px 1px 1px goldenrod,
+        1px 2px 1px goldenrod,   
+        3px 2px 1px goldenrod, 
+        2px 3px 1px goldenrod; 
+}
+
+/* Тёмная тема */
+
+@media (prefers-color-scheme: dark){
+    :root{
+        --back-image-light: url(../img/fonB.jpg);
+        --text-color-light: #f1f1f1;
+        --back-color-light: #2e2e2e;
+        --back-color-light-2: #252525;
+        --link-color-light: #ce2424;
+    }
+}
+
+body.dark-theme{
+    background: var(--back-image-dark);
+    background-size:  cover;
+    background-attachment: fixed;
+    color: var(--text-color-dark);
+}
+
+body.dark-theme .h1-a a{
+    color: var(--text-color-dark);
+}
+
+body.dark-theme a{
+    color: var(--link-color-dark);
+}
+
+body.dark-theme .dark-back{
+    background-color: var(--back-color-dark);
+}
+
+body.dark-theme .header-button > button{
+    background: url(../img/section.png);
+    background-size: cover;
+}
+
+body.dark-theme .theme-change{
+    background: url(../img/moon.png);
+    background-size: cover;
+}
+
+body.dark-theme .dark-back-2{
+    background: var(--back-color-dark-2);
+}
+
+body.dark-theme .dark-back-2 a{
+    color: var(--text-color-dark);
+}
+
+body.dark-theme .silver-text a{
+    color: silver;
+}
+
+body.dark-theme .gold-text a{
+    color: gold;
+}

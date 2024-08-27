@@ -1,0 +1,15 @@
+footer{
+    border-top: 3px solid black;
+    padding: 1vh 0;
+    margin-top: 5vh;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-div p{
+    font-size: 14px;
+    text-align: center;
+}

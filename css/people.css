@@ -1,0 +1,61 @@
+.people-full-div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 3vw;
+    margin-top: 1vh;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.photos{
+    display: flex;
+    width: 250px;
+    height: 310px;
+    padding: 10px 20px 0 20px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.photos img{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 20px;
+    transition: opacity 0.7s;
+}
+
+.photos img:hover{
+    opacity: 0.6;
+}
+
+.text-div-photo{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.text-div-photo p{
+    font-size: 26px;
+}
+
+
+@media (max-width: 666px) {
+    .people-full-div{
+        padding: 0 1vw;
+    }
+
+    .photos{
+        width: 185px;
+        height: 235px;
+    }
+    
+    .photos img{
+        width: 185px;
+        height: 185px;
+    }
+
+    .text-div-photo p{
+        font-size: 24px;
+    }
+}
